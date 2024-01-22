@@ -1,0 +1,22 @@
+.card   {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #2E302F;
+    border-radius: 2rem;
+    
+}
+
+.card__sobre    {
+    padding: 1.5rem;
+}
+
+.card__sobre--titulo    {
+    color: #F9B209;
+    margin-bottom: 1rem;
+}
+
+.card__sobre--conteudo  {
+    color: #fdfdfd;
+}
+
