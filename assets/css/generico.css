@@ -1,0 +1,15 @@
+.titulo-1{
+    font-family: 'Anton', sans-serif;
+    font-size: 2em;
+}
+
+.titulo-2   {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.3em;
+}
+
+p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 1em;
+    text-align: justify;
+}

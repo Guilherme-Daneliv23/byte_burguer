@@ -1,0 +1,12 @@
+.sobre  {
+    margin: 2rem;
+}
+
+.sobre__titulo  {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.sobre__conteudo    {
+    padding-bottom: 2rem;
+}

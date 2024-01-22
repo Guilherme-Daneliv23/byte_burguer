@@ -1,0 +1,8 @@
+.cabecalho__nav {
+    background-color: #F9B209;
+    height: 4rem;
+    margin-bottom: 0.15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
