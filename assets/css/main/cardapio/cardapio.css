@@ -1,3 +1,8 @@
 .cardapio   {
     margin: 2rem;
 }
+
+.cardapio__pedido{
+    display: flex;
+    justify-content: center;
+}
