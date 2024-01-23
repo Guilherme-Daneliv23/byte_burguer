@@ -3,6 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Arimo&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/header/cabecalho/cabecalho-nav.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/generico.css">
+    <link rel="stylesheet" href="assets/css/main/cardapio/card/card.css">
+    <link rel="stylesheet" href="assets/css/main/cardapio/card/card__input.css">
     <title>Pedido</title>
 </head>
 <body>
@@ -15,46 +24,49 @@
 
     </header>
     <main>
-        <h2>Faça seu pedido</h2>
         <section class="cardapio"> 
-            <h2 class="cardapio__titulo  titulo-1">Nossos laches</h2>
+            <h2 class="cardapio__titulo  titulo-1">Faça seu pedido</h2>
             <section class="card">  
-                <div class="card__imagem">
-                    <img src="assets/img/fototechtower.png" alt="Foto do hamburger TechTreat Tower">
+                <div>
+                    <img class="card__imagem" src="assets/img/fototechtower.png" alt="Foto do hamburger TechTreat Tower">
                 </div>
                 <div class="card__sobre">
                     <h3 class="card__sobre--titulo titulo-2">TechTreat Tower</h3>
-                    <input type="number" id="quantidade">
+                    <p class="card__preco">R$42,50</p>
+                    <input type="number" id="quantidade" class="card__input">
                 </div>
             </section>
         
             <section class="card">
-                <div class="card__imagem">
-                    <img src="assets/img/gigabyte.png" alt="Foto do hamburger GibaByte Veggie">
+                <div>
+                    <img class="card__imagem"  src="assets/img/gigabyte.png" alt="Foto do hamburger GibaByte Veggie">
                 </div>
                 <div class="card__sobre">
                     <h3 class="card__sobre--titulo titulo-2">GibaByte Veggie</h3>
-                    <input type="number" id="quantidade">
+                    <p class="card__preco">R$38,25</p>
+                    <input type="number" id="quantidade" class="card__input">
                 </div>
             </section>
             <section class="card">
-                <div class="card__imagem">
-                    <img src="assets/img/ctrl+cheese.png" alt="Foto do hamburger Ctrl+ Chesse">
-                    <br>
+                <div>
+                    <img class="card__imagem"  class="card__imagem"  src="assets/img/ctrl+cheese.png" alt="Foto do hamburger Ctrl+ Chesse">
+                    
                 </div>
                 <div class="card__sobre">
                     <h3 class="card__sobre--titulo titulo-2">Ctrl+ Chesse</h3>
-                    <input type="number" id="quantidade">
+                    <p class="card__preco">R$39,99</p>
+                    <input type="number" id="quantidade" class="card__input">
                 </div>
             </section>
             <section class="card">
-                <div class="card__imagem">
-                    <img src="assets/img/Quantum Crunch Chicken.jpeg" alt="Foto do hamburger Quantum Crunch Chicken">
+                <div>
+                    <img  class="card__imagem" src="assets/img/Quantum Crunch Chicken.jpeg" alt="Foto do hamburger Quantum Crunch Chicken">
                     <br>
                 </div>
                 <div class="card__sobre">
                     <h3 class="card__sobre--titulo titulo-2">Quantum Crunch Chicken</h3>
-                    <input type="number" id="quantidade">
+                    <p class="card__preco">R$44,50</p>
+                    <input type="number" id="quantidade" class="card__input">
                 </div>
             </section>
         </section> 

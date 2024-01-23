@@ -20,3 +20,16 @@
     color: #fdfdfd;
 }
 
+.card__imagem{
+
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.card__preco{
+    color: #fdfdfd;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+
+
+}
