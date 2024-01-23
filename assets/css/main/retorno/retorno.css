@@ -1,0 +1,24 @@
+.retorno{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 10rem;
+    
+}
+
+.retorno__input{
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+
+}
+.retorno__button{
+    background-color: #F9B902;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    width: 6.5rem;
+}
+
