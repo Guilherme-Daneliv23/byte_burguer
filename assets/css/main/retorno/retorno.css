@@ -8,12 +8,14 @@
     
 }
 
-.retorno__input{
+ .retorno__input{
     text-align: center;
-    padding: 1rem;
-    font-size: 2rem;
+    padding-left: 0.5rem;
+    font-size: 1.5rem;
+    width: 6rem;
 
-}
+
+} 
 .retorno__button{
     background-color: #F9B902;
     padding: 0.5rem;
@@ -22,3 +24,9 @@
     width: 6.5rem;
 }
 
+.retorno__conteudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
