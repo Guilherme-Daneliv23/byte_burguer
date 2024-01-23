@@ -2,8 +2,7 @@ const quantidade = document.querySelectorAll(".quantidade");
 const enviar = document.getElementById("enviar");
 const retorno = document.getElementById("retorno");
 
-const card = document.getElementById("card");
-const teste = document.getElementById("teste");
+const comanda = document.getElementById("comanda");
 
 const precos = new Array (
     42.50,
@@ -11,21 +10,21 @@ const precos = new Array (
     39.99,
     44.50
 )
-enviar.addEventListener('click', () => {
+// enviar.addEventListener('click', () => {
 
-    var soma = 0;
+//     var soma = 0;
 
-    for(let i = 0; i < quantidade.length; i++)  {
+//     for(let i = 0; i < quantidade.length; i++)  {
 
-        soma += quantidade[i].value * precos[i];
+//         soma += quantidade[i].value * precos[i];
 
-    }
+//     }
 
-    retorno.value = soma;     
+//     retorno.value = soma;     
     
-})
+// })
 
-teste.addEventListener('click', () =>   {
-    card.classList.add("seletor");
+enviar.addEventListener('click', () =>   {
+    comanda.classList.add("seletor");
 })
 
