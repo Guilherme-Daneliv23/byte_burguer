@@ -28,7 +28,7 @@ enviar.addEventListener('click', () =>   {
 function exibePedido()  {
     for(let i = 0; i < quantidade.length; i++)  {
         quantidadeComanda[i].innerHTML = "Quantidade: " + quantidade[i].value;
-        valorComanda[i].innerHTML = "Valor: " + quantidade[i].value * precos[i];
+        valorComanda[i].innerHTML = "Valor: R$ " + quantidade[i].value * precos[i];
 
     }
 }
@@ -43,6 +43,6 @@ function calculaPagamento() {
 
     }
 
-    valorPagamento.innerHTML = soma;
+    valorPagamento.innerHTML = "R$ " + soma;
 }
 

@@ -14,3 +14,14 @@
 .comanders__titulo{
     text-align: center;
 }
+
+.comanders__pagar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.comander__pagamento{
+    margin-left: 0.5rem;
+}
