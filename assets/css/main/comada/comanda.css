@@ -1,10 +1,14 @@
 .comanda{
-    border: 0.5rem solid black;
+    border: 0.3rem solid rgba(0, 0, 0, 0.745);
     margin: 4rem;
-    border-radius: 2rem;
+    border-radius: 0.7rem;
     display: none;
 }
 
-.seletor    {
+.seletor{
     display: block;
+}
+
+.comanda__titulo{
+    text-align: center;
 }
