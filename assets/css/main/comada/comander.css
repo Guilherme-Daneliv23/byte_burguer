@@ -2,9 +2,15 @@
     border-radius: 50%;
     height: 4rem;
     width: 4rem;
+    padding: 0.8rem;
 }
 
 .comanders{
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+
+.comanders__titulo{
+    text-align: center;
 }
