@@ -1,6 +1,7 @@
 .comanda{
     border: 0.3rem solid rgba(0, 0, 0, 0.745);
-    margin: 4rem;
+    width: 75%;
+    margin: 2rem;
     border-radius: 0.7rem;
     display: none;
 }
