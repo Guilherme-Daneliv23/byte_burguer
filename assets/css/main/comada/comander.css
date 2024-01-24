@@ -1,0 +1,10 @@
+.comanders__img{
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+}
+
+.comanders{
+    display: flex;
+    flex-direction: row;
+}
