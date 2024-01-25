@@ -1,0 +1,25 @@
+.contato{
+    background-color: #F9B209;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.contato__titulo{
+    font-size: 3rem;
+}
+
+
+
+.contato__diogo{
+    display: flex;
+    flex-direction: row;
+}
+
+.contato__guilherme{
+    display: flex;
+    flex-direction: row;
+}
+
+.contato__linkdin{
+    padding-bottom: 0rem;
+}

@@ -1,0 +1,17 @@
+.copyright{
+    background-color: #F9B209;
+}
+
+.copyright__img{
+    display: flex;
+    flex-direction: row;
+    
+    width: 10rem;
+    height: 10rem;
+    
+}
+
+.copyright__texto{
+    font-size: 2rem;
+    text-align: center;
+}
